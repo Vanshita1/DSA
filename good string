@@ -1,0 +1,8 @@
+Good string
+You are given a string S of length N consisting of digits 1 and 2. A string is considered as good if you can start at index 1 and reach index N, visiting each index exactly once and ending at the last index. At each index, you can move 1 or 2 steps to the left or right depending on whether the digit is 1 or 2.
+Example
+Assumptions
+• N= 3
+• S= "122"
+Approach
+As it's not possible that you start from index 1 and end at index 3 by visiting each index exactly once. So the answer would be NO.
